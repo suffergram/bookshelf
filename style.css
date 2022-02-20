@@ -1,0 +1,70 @@
+body {
+	background-color: #232529;
+	color: #ddd;
+	font-family: arial;
+}
+
+input {
+	width: 120px;
+	height: 30px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#container {
+	/*display: flex;
+	justify-content: center;*/
+}
+
+img {
+	height: 100%;
+}
+
+.image, .info, .manage {
+	height: 150px;
+	width: 110px;
+	text-align: center;
+	float: left;
+	padding: 10px;
+	/*outline: 1px solid red;*/
+}
+
+.info {
+	width: 440px;
+	text-align: left;
+	line-height: 0.6;
+}
+
+.manage {
+	width: 150px;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+table {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+tr {
+	margin: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+tr:hover {
+	background-color: rgba(255, 255, 255, 0.125);
+}
+
+table input {
+	position: relative;
+	top: 30px;
+}
+
+.editContainer {
+	width: 600px;
+	height: 600px;
+	border: 1px solid black;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+}
